@@ -34,31 +34,35 @@ body{
 
 }
 
+button{
+    border: none;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    width: 10rem;
+    height: 1.5rem;
+}
+
+h1,h2,h3,h4{
+    color: var(--text-color);
+    font-family: var(--font-heading);
+    margin-bottom: 1rem;
+}
+
 a{
     color: var(--text-color);
     text-decoration: none;
     transition: color .4s ease;    
 }
-
 a:hover{
     color: var(--secondary-color);
-}
-
-h1,h2,h3,h4{
-    font-family: var(--font-heading);
-    margin-bottom: 1rem;
 }
 
 ul{
     list-style-type: none;
 }
 
-button{
-    border: none;
-    background-color: var(--secondary-color);
-    color: aliceblue;
-    width: 10rem;
-    height: 1.5rem;
+img{
+    width: 15rem;
 }
 
 
@@ -72,7 +76,6 @@ footer{
     Index Styling
 ==========================
 */
-
 .index-body{
     display: grid;
     grid-template-columns: 1fr;
