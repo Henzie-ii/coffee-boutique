@@ -14,6 +14,8 @@
     --secondary-color: #693400;
     --tertiary-color: #a09d9b3a;
     --background-color: aliceblue;
+    --button-color: #100901;
+    --button-hover: #5f3607cf;
     --text-color: #121214;
     --font-main: "Inter", sans-serif;
     --font-heading: "Poppins", sans-serif;
@@ -49,6 +51,14 @@ h1,h2,h3,h4{
 
 ul{
     list-style-type: none;
+}
+
+button{
+    border: none;
+    background-color: var(--secondary-color);
+    color: aliceblue;
+    width: 10rem;
+    height: 1.5rem;
 }
 
 
@@ -139,13 +149,69 @@ header{
 }
 
 
-
-
 /*
 ==========================
     Coffee Styling
 ==========================
 */
+
+/*Hero-section*/
+.hero-section{
+    margin-bottom: 1rem;
+    background: linear-gradient(#85554468 0%, #37211866), url("../assets/images/ui/screen.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 15rem;
+}
+
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.hero-span span{
+    padding: 1px 20px;
+    font-weight: 410;
+    color: var(--primary-color);
+    backdrop-filter: blur(15px);
+    border: 0.2px solid var(--primary-color);
+    border-radius: 25px;
+    background-color: #e0dfdf31;
+}
+
+.hero-text p, h1{
+    color: var(--primary-color);
+    width: 600px;
+    text-align: center;
+}
+
+.hero-buttons{
+    display: flex;
+    margin-top: 2rem;
+    gap: 2.5rem;
+}
+
+.hero-btn a{
+    color: var(--primary-color);
+}
+
+.hero-btn{
+    height: 2.3rem;
+    font-size: .8rem;
+    font-weight: 530;
+    border-radius: 2px;
+    cursor:pointer;
+    background-color: var(--button-color);
+    transition: background-color .3s ease;
+}
+
+.hero-btn:hover{
+    background-color: var(--button-hover);
+}
 
 
 
