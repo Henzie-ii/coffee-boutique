@@ -10,8 +10,9 @@
 }
 
 :root{
-    --primary-color: #ffffff78;
+    --primary-color: #6e4e3b4d;
     --secondary-color: #996633;
+    --tertiary-color: #a09d9b3a;
     --background-color: #e4e4d8;
     --text-color: #121214;
     --font-main: "Inter", sans-serif;
@@ -47,8 +48,10 @@ ul{
     list-style-type: none;
 }
 
-
-
+/*sketch-style*/
+footer{
+    background-color: var(--tertiary-color);
+}
 
 /*
 ==========================
@@ -56,6 +59,17 @@ ul{
 ==========================
 */
 
+.index-body{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto 400px;
+    min-height: 100vh;
+}
+
+   /*Navigation-Bar style*/
+header{
+    background-color: var(--primary-color);
+}
 
 
 
