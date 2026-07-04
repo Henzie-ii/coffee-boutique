@@ -1,5 +1,57 @@
 /*
 ==========================
+    Global Styling
+==========================
+*/
+*, *::before, *::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --primary-color: #ffffff78;
+    --secondary-color: #996633;
+    --background-color: #e4e4d8;
+    --text-color: #121214;
+    --font-main: "Inter", sans-serif;
+    --font-heading: "Poppins", sans-serif;
+}
+
+body{
+    font-family: var(--font-main);
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+
+a{
+    color: var(--secondary-color);
+    text-decoration: none;
+    transition: color .4s ease;    
+}
+
+a:hover{
+    color: var(--primary-color);
+}
+
+h1,h2,h3,h4{
+    font-family: var(--font-heading);
+    margin-bottom: 1rem;
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+
+
+/*
+==========================
     Index Styling
 ==========================
 */
