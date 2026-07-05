@@ -39,6 +39,9 @@ body{
 button{
     border: none;
     background-color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: var(--primary-color);
     width: 10rem;
     height: 1.5rem;
@@ -512,6 +515,73 @@ figcaption{
     background-color: var(--button-hover);
 }
 
+
+
+/*Footer Bar*/
+
+.footer-section{
+    display: flex;
+    align-items: center;
+    padding: 2.3rem;
+}
+
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    justify-content: center;
+    margin-top:2rem;
+    gap: 2rem;
+}
+
+.footer-card{
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.footer-card h2{
+    font-family: var(--font-heading);
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.footer-card p{
+    font-family: var(--font-main);
+    color: var(--text-color);
+    font-size: 1rem;
+    font-weight: 400;
+    opacity: .8;
+}
+.footer-card-content{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    margin-top: 2rem;
+}
+.footer-card-content p{
+    font-weight: 500;
+}
+.footer-card-content input{
+    padding: .6rem;
+    width: 100%;
+    border: .2px solid rgba(57, 56, 56, 0.616);
+    border-radius: 15px;
+    color: var(--text-color);
+    font-weight: 600;
+    font-family: var(--font-heading);
+}
+.footer-card-content button{
+    background-color: var(--secondary-color);
+    padding: .9rem;
+    border-radius: var(--button-border-radius);
+    width: 7rem;
+    cursor: pointer;
+    
+}
+.footer-card-content button a{
+    color: var(--primary-color);
+    font-weight: var(--button-font-weight);
+}
 
 /*
 ==========================
