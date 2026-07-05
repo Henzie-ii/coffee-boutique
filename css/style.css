@@ -416,7 +416,7 @@ figcaption{
 .community-section{
     display: flex;
     justify-content: center;
-    margin-top: 10rem;
+    margin-top: 8rem;
     min-height: 100vh;
 }
 
@@ -448,7 +448,7 @@ figcaption{
     grid-template-rows: 1fr;
     justify-content: center;
     gap: 1.5rem;
-    margin-top: 3.5rem;
+    margin-top: 3.2rem;
 }
 
 .community-imgs img{
@@ -462,7 +462,8 @@ figcaption{
     display: flex;
     align-items: center;
     gap: 25rem;
-    margin-top: 5rem;
+    margin-top: 3.3rem;
+    margin-bottom: 5rem;
     height: 10rem;
     background-color: var(--primary-color);
     border-radius: 12px;
@@ -569,7 +570,7 @@ figcaption{
     padding: .1rem;
     text-align: center;
     border-radius: var(--button-border-radius);
-    width: 6rem;
+    width: 10rem;
     font-weight: var(--button-font-weight);
     font-size: .9rem;
     cursor: pointer;
