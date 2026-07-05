@@ -407,8 +407,103 @@ figcaption{
 }
 
 
+/*Our community section*/
+.community-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+    min-height: 100vh;
+}
 
+/*
+.community-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+}
+*/
+.community-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.community-card h2{
+    font-family: "Salina", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--text-color);
+}
+
+.community-card p{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+    opacity: .8;
+    color: var(--text-color);
+}
+
+.community-imgs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 3.5rem;
+}
+
+.community-imgs img{
+   height: 15rem;
+   object-fit: cover;
+   border-radius: 15px;
+
+}
+
+.community-card2{
+    display: flex;
+    align-items: center;
+    gap: 25rem;
+    margin-top: 5rem;
+    height: 10rem;
+    background-color: var(--primary-color);
+    border-radius: 12px;
+}
+
+.community-content{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 2.5rem;
+}
+.community-content h2{
+    font-family: "Inter";
+    font-size: 1.8rem;
+    font-weight: 700;
+    opacity: 1;
+}
+
+.community-content p{
+    opacity: .8;
+    font-family: "Poppins";
+    font-weight: 450;
+    font-size: 1rem;
+    margin-top: -.5rem;
+}
+
+.community-btn button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 15rem;
+    margin-right: 2.5rem;
+    color: var(--primary-color);
+    font-weight: var(--button-font-weight);
+    border-radius: var(--button-border-radius);
+    padding: 1.3rem;
+}
 /*
 ==========================
     equipment Styling
