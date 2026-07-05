@@ -420,15 +420,6 @@ figcaption{
     min-height: 100vh;
 }
 
-/*
-.community-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 10rem;
-}
-*/
 .community-card{
     display: flex;
     flex-direction: column;
@@ -521,21 +512,20 @@ figcaption{
 
 .footer-section{
     display: flex;
-    align-items: center;
+    justify-content: center;
     padding: 2.3rem;
 }
 
 .footer-container{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 1fr;
-    justify-content: center;
-    margin-top:2rem;
-    gap: 2rem;
+    grid-template-columns: repeat(auto-fit,minmax(235px,1fr));
+    width: 100%;
+    max-width: 1200px;
+    margin-top:.4rem;
+    gap: 3.5rem;
 }
 
 .footer-card{
-    background-color: grey;
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -556,7 +546,10 @@ figcaption{
     display: flex;
     flex-direction: column;
     gap: .5rem;
-    margin-top: 2rem;
+    margin-top: 2.rem;
+}
+.footer-card-content.footer-links{
+    margin-top: 0;
 }
 .footer-card-content p{
     font-weight: 500;
@@ -564,17 +557,21 @@ figcaption{
 .footer-card-content input{
     padding: .6rem;
     width: 100%;
-    border: .2px solid rgba(57, 56, 56, 0.616);
+    border: .2px solid #000000db;
     border-radius: 15px;
     color: var(--text-color);
     font-weight: 600;
     font-family: var(--font-heading);
 }
-.footer-card-content button{
+.footer-btn{
+    color: var(--primary-color);
     background-color: var(--secondary-color);
-    padding: .9rem;
+    padding: .1rem;
+    text-align: center;
     border-radius: var(--button-border-radius);
-    width: 7rem;
+    width: 6rem;
+    font-weight: var(--button-font-weight);
+    font-size: .9rem;
     cursor: pointer;
     
 }
