@@ -503,6 +503,7 @@ figcaption{
     font-weight: var(--button-font-weight);
     border-radius: var(--button-border-radius);
     padding: 1.3rem;
+    cursor: pointer;
 }
 /*
 ==========================
