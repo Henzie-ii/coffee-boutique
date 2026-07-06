@@ -758,7 +758,7 @@ figcaption{
     transition: transform .2s ease;
 }
 .category-cart img:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 .category-cart span{
     color: var(--secondary-color);
