@@ -16,9 +16,12 @@
     --background-color: aliceblue;
     --category-color:#11441a;    --button-color: #100901;
     --button-hover: #5f3607cf;
-    --button-font-weight: 680;
+    --button-font-weight: 550;
     --button-border-radius: 10px;
+    --button-font-family:"Poppins", sans-serif;
     --text-color: #121214;
+    --input-font-weight:700;
+    --font-heading-h1:700;
     --font-main: "Inter", sans-serif;
     --font-heading: "Poppins", sans-serif;
     --font-logo: "Cormorant Garamond", Garamond ,"Times New Roman", serif;
@@ -584,8 +587,139 @@ figcaption{
 ==========================
 */
 
+/*Category heading section*/
+.category-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5rem;
+}
+.category-heading-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:3rem;
+}
+.category-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
+.category-heading h1{
+    color: var(--text-color);
+    font-family: "Inter";
+    font-weight: var(--font-heading-h1);
+    opacity: .9;
+}
+.category-heading p{
+    color: var(--text-color);
+    font-family: "Poppins";
+    font-weight: var(--font-heading-h1);
+    opacity: .8;   
+}
+.categories{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.categories input{
+    padding: .8rem;
+    width: 500px;
+    border: .2px solid rgb(47, 47, 47);
+    border-radius: 15px;
+    outline: none;
+    font-family: "Poppins";
+    font-weight: var(--input-font-weight);
+    opacity: .9;
+}
+.categories-btns{
+    display: flex;
+    gap: 2rem;
+}
+.categories-btns button{
+    padding:.9rem;
+    font-family: var(--button-font-family);
+    font-weight: var(--button-font-weight);
+    border-radius: var(--button-border-radius);
+    color: var(--primary-color);
+    background-color: #045004e3;
+    transition: background-color .3s ease;
+    cursor: pointer;
+}
+.categories-btns button:hover{
+    background-color: #11441a;
+}
 
 
+/*Category collection section*/
+.category-collection{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap: 1.2rem;
+}
+.category-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 300px;
+    background-color: grey;
+}
+.category-card img{
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+}
+.category-text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.2rem;
+    justify-content: center;
+    align-items: start;
+}
+.category-text h3{
+    color: var(--text-color);
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+.category-text p{
+     color: var(--text-color);
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: .9rem;
+    opacity: .9;   
+}
+.category-badge{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.3rem;
+    align-items: center;
+    justify-content: center;
+}
+.category-badge p{
+    margin-right:3rem;
+    color: var(--primary-color);
+    padding: .2rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.category-badge span{
+     background-color: #11441a;
+     color: var(--primary-color);
+     padding: .3rem;
+     border-radius: 20px;
+}
+.category-cart{
+    display: flex;
+    gap: 2rem;
+}
 
 
 /*
