@@ -14,8 +14,9 @@
     --secondary-color: #693400;
     --tertiary-color: #a09d9b3a;
     --background-color: aliceblue;
-    --category-color:#11441a;    --button-color: #100901;
-    --button-hover: #5f3607cf;
+    --category-color:#0c591a;   
+     --button-color: #452705;
+    --button-hover: #5f3607b7;
     --button-font-weight: 550;
     --button-border-radius: 10px;
     --button-font-family:"Poppins", sans-serif;
@@ -663,17 +664,17 @@ figcaption{
     gap: 2rem;
 }
 .categories-btns button{
-    padding:.9rem;
+    padding:.5rem 1.5rem;
     font-family: var(--button-font-family);
     font-weight: var(--button-font-weight);
     border-radius: var(--button-border-radius);
     color: var(--primary-color);
-    background-color: #045004e3;
+    background-color: var(--button-color);
     transition: background-color .3s ease;
     cursor: pointer;
 }
 .categories-btns button:hover{
-    background-color: #11441a;
+    background-color: var(--category-color);
 }
 
 
@@ -686,14 +687,16 @@ figcaption{
 .category-card{
     display: flex;
     flex-direction: column;
-    background-color: grey;
+    background-color: #e4e4e47e;
     overflow: hidden;
-    padding: 1rem;
-    border-radius: 10px;
+    padding: 1.1rem;
+    border-radius: 13px;
+    box-shadow: 0px 4px 15px rgba(94, 94, 94, 0.5);
+    overflow: hidden;
 }
 .category-card img{
     width: 100%;
-    height: 20rem;
+    height: 18rem;
     object-fit: cover;
     border-radius: 8px;
 }
@@ -708,32 +711,38 @@ figcaption{
     font-family: var(--font-heading);
     font-weight: 700;
     font-size: 1.1rem;
+    margin-bottom: 0;
 }
 .category-text p{
      color: var(--text-color);
     font-family: "Poppins";
     font-weight: 500;
     font-size: .9rem;
-    opacity: .9;   
+    opacity: .7;   
 }
 .category-badge{
     display: flex;
-    gap: 1rem;
+    gap: .5rem;
     margin-top: 1.3rem;
     align-items: center;
     justify-content: flex-start;
+    flex: wrap;
 }
 .category-badge p{
-    margin-right:3rem;
-    color: var(--primary-color);
+    margin-right:.8rem;
+    color: var(--secondary-color);
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 650;
+    font-size: .75rem;
+    text-transform: uppercase;
 }
 .category-badge span{
-     background-color: #11441a;
-     color: var(--primary-color);
-     padding: .3rem .8rem;
+     background-color: var(--button-color);
+     color: #ffffff;
+     padding: .2rem .7rem;
      border-radius: 50px;
+     font-size: .8rem;
+     font-weight: 500;
 }
 .category-cart{
     display: flex;
@@ -743,7 +752,17 @@ figcaption{
     padding-top: 1.5rem;
 }
 .category-cart img{
-    width:2em;
+    width:1.8rem;
+    height: 1.8rem;
+    cursor: pointer;
+    transition: transform .2s ease;
+}
+.category-cart img:hover{
+    transform: scale(1.2);
+}
+.category-cart span{
+    color: var(--secondary-color);
+    font-weight: 700;
 }
 
 
