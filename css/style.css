@@ -687,11 +687,11 @@ figcaption{
 .category-card{
     display: flex;
     flex-direction: column;
-    background-color: #e4e4e47e;
+    background-color: #d5d5d57e;
     overflow: hidden;
-    padding: 1.1rem;
+    padding: 1rem;
     border-radius: 13px;
-    box-shadow: 0px 4px 15px rgba(94, 94, 94, 0.5);
+    
     overflow: hidden;
 }
 .category-card img{
