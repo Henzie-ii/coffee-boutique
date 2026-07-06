@@ -692,7 +692,6 @@ figcaption{
     padding: 1rem;
     border-radius: 13px;
     
-    overflow: hidden;
 }
 .category-card img{
     width: 100%;
@@ -804,6 +803,52 @@ figcaption{
     Equipments Styling
 ==========================
 */
+
+.equipment-hero-section{
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    margin-top: 4rem;
+}
+.equipment-heading{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    align-items: flex-start;
+}
+.equipment-heading h4{
+    text-align: start;
+    font-family: "Poppins";
+    color: var(--text-color);
+    font-weight: 500;
+    opacity: .7;
+}
+.equipment-heading h1{
+    text-align: start;
+    font-family: var(--font-main);
+    color: var(--text-color);
+    font-weight: 700;
+    margin-bottom: 1.1;
+    font-size: 3rem;
+}
+.equipment-heading p{
+    text-align: start;
+    font-family: "Poppins",sans-serif;
+    font-weight: 500;
+    font-size: .9rem;
+    opacity: .7;
+    color: var(--text-color);
+}
+.equipment-imgs{
+    overflow: hidden;
+
+}
+.equipment-imgs img{
+    width: 100%;
+    height: 25rem;
+    object-fit: cover;
+    border-radius: 8px;
+}
 
 
 
