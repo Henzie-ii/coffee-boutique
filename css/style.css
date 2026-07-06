@@ -850,7 +850,40 @@ figcaption{
     border-radius: 8px;
 }
 
-
+/*collection-section*/
+.collection-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+}
+.collection-category{
+    display: flex;
+    gap: 15rem;
+    align-items: center;
+    overflow: hidden;
+}
+.collection-category h2{
+    text-align: start;
+    font-family: var(--font-heading);
+    color: var(--text-color);
+    font-weight: 700;
+    font-size: 2rem;
+}
+.collection-btns{
+    display: flex;
+    gap: 2rem;
+}
+.collection-btns button{
+     padding:.5rem 1.5rem;
+    font-family: var(--button-font-family);
+    font-weight: var(--button-font-weight);
+    border-radius: var(--button-border-radius);
+    color: var(--primary-color);
+    background-color: var(--button-color);
+    transition: background-color .3s ease;
+    cursor: pointer;
+}
 
 
 
