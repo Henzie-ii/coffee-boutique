@@ -720,6 +720,30 @@ figcaption{
     font-size: .9rem;
     opacity: .7;   
 }
+.category-badge2{
+    display: flex;
+    gap: .5rem;
+    margin-top: 1.3rem;
+    align-items: center;
+    justify-content: flex-start;
+    flex: wrap;
+}
+.category-badge2 p{
+    margin-right:.8rem;
+    color: var(--secondary-color);
+    font-size: 1rem;
+    font-weight: 650;
+    font-size: .75rem;
+    text-transform: uppercase;
+}
+.category-badge2 span{
+     background-color: #0c4f0fcf;
+     color: #ffffff;
+     padding: .1rem .7rem;
+     font-size: .8rem;
+     font-weight: 500;
+     font-style: italic;
+}
 .category-badge{
     display: flex;
     gap: .5rem;
@@ -764,6 +788,15 @@ figcaption{
     color: var(--secondary-color);
     font-weight: 700;
 }
+.content-separator{
+    display: flex;
+    align-items: center;
+    opacity: .2;
+    border: .4px solid #000000;
+
+    margin-top: 2rem;
+}
+
 
 
 /*
