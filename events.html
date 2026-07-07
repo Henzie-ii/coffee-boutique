@@ -109,27 +109,27 @@
         </section>
 
         <!--section events form-->
-        <section>
-            <div>
+        <section class="event-form-section">
+            <div class="event-form-heading">
                 <h3>Secure Your Spot</h3>
                 <p>
                     Please Fill the form below to register for our upcoming events. We will 
                     send a confirmation and payment link to your email.
                 </p>
             </div>
-            <div>
-                <form action="">
+            <div class="event-form-container">
+                <form action="post" class="event-form-wrapper">
                     <div>
-                        <div>
+                        <div class="event-input">
                             <label for="">Full Name</label>
                             <input type="text" required>
                         </div>
-                        <div>
+                        <div class="event-input">
                             <label for="">Email Address</label>
                             <input type="email" required>
                         </div>
                     </div>
-                    <div>
+                    <div class="event-selection">
                         <label for="">Select Workshop</label>
                         <select name="event" id="event-choice">
                             <option value="">Choose an event...</option>
@@ -138,8 +138,10 @@
                             <option value="">Meet the Roaster: Ethiopia Yirgacheffe</option>
                         </select>
                     </div>
-                    <button>Complete Registration</button>
-                    <p>BY REGISTERING, YOU AGREE TO OUR TERMS AND CANCELLATION POLICY.</p>
+                    <div class="event-signup-btn"> 
+                        <button">Complete Registration</button>
+                        <p>BY REGISTERING, YOU AGREE TO OUR TERMS AND CANCELLATION POLICY.</p>
+                    </div>
                 </form>
             </div>
         </section>
