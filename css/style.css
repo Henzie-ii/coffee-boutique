@@ -886,6 +886,30 @@ figcaption{
 }
 
 
+/*equipments grid section*/
+.equipment-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px 0;
+    gap: 2rem;
+}
+.equipment-card{
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    overflow: hidden;
+    display: flex;
+
+}
+.equipment-img{
+    width: 100%;
+    height: 250px;
+}
+.equipment-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover,;
+}
 
 /*
 ==========================
