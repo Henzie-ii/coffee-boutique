@@ -1048,7 +1048,132 @@ figcaption{
     background-color: var(--category-color);
 }
 
+/*event-fomr section*/
+.event-form-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;   
+    padding: 8.5rem 0 0 ;
+}
+.event-form-heading{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.event-form-heading h3{
+    font-family: "Inter",serif;
+    font-weight: 700;
+    color: var(--text-color);
+    font-size: 2rem;
+}
+.event-form-heading p{
+    font-family: "Lora",serif;
+    font-weight: 500;
+    color: var(--text-color);
+    opacity: 1;
+    line-height: 1.7;
+}
+.event-form-container{
+    background-color: var(--tertiary-color);
+    padding: 3rem 2vw 3rem;
+    margin: 0.3rem 0 6rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+.event-form-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.event-input-section{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+.event-input{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: .2rem;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.label{
+    margin-left: .5rem ;
+    color: var(--text-color);
+    font-family: "Poppins",serif;
+    font-weight: 500;
+    font-size: 1.05rem;
+    opacity: 1;
+}
+.event-input input{
+    width: 27vw;
+    padding: .6rem 1rem;
+    text-align: left;
+    outline: none;
+    border: .6px solid black;
+    box-sizing: border-box;
+    transition: background-color .4s ease;
+    border-radius:16px ;
+}
+.event-input input:focus{
+    border-color: var(--secondary-color);
+}
+.event-selection{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:.2rem
+}
 
+.selection-column{
+    width: 55.2vw;
+    padding: .6rem 1rem;
+    text-align: left;
+    outline: none;
+    border: .6px solid black;
+    box-sizing: border-box;
+    transition: background-color .4s ease;
+    border-radius: 16px;
+}
+.event-signup-btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:.4rem;
+    width: 100%;
+    margin-top: 1.4rem;
+}
+.event-signup-btn button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 50px;
+    max-width: 30rem;
+    padding: 1.2rem 2rem;
+    box-sizing: border-box;
+    font-family: "Poppins",serif;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color .4s ease;
+}
+.event-signup-btn button:hover{
+    background-color: var(--category-color);
+}
+.event-signup-btn p{
+    font-family:"Lora",serif;
+    font-weight: 500;
+    font-size: .7rem;
+
+}
 
 /*
 ==========================
