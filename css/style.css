@@ -1180,8 +1180,42 @@ figcaption{
     Offers Styling
 ==========================
 */
-
-
+.offer-hero-section{
+    background: linear-gradient(#41230879, #2b2a1761), url("../assets/images/ui/screen2.jpg");
+    padding: 12rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 2rem;
+}
+.offers-hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+.offers-hero span{
+    color: var(--primary-color);
+    font-weight: 510;
+    background:  #e0dfdf31;
+    padding: 1px 20px;
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    border: .2px solid #b3b3b36c;
+}
+.offers-hero h1{
+    font-family: "Inter", serif;
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    text-align: center;
+}
+.offers-hero p{
+    font-family: "Lora", serif;
+    color: var(--primary-color);
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-align: center;
+}
 
 
 
