@@ -1176,9 +1176,9 @@ figcaption{
 }
 
 /*
-==========================
-    Offers Styling
-==========================
+===================================
+    Offers & subscription Styling
+===================================
 */
 .offer-hero-section{
     background: linear-gradient(#41230879, #2b2a1761), url("../assets/images/ui/screen2.jpg");
@@ -1433,13 +1433,35 @@ figcaption{
 .subscribe-btn button:hover{
     background-color: var(--category-color);
 }
-/*
-==========================
-    subscriptions Styling
-==========================
-*/
 
 
+/*offers footer*/
+.offer-footer{
+    display: flex;
+    align-items: center;
+    padding: 6rem;
+    margin-top: 8rem;
+    gap: 2.5rem;
+    background-color: var(--primary-color);
+}
+.offer-footer-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .2rem;
+}
+.offer-footer-wrapper h3{
+    font-family: "Inter",serif;
+    font-weight: 700;
+}
+.offer-footer-wrapper p{
+    text-align: center;
+    font-family: "Poppins",serif;
+    font-size: .95rem;
+    font-weight: 500;
+    opacity: .9;
+}
 
 
 
